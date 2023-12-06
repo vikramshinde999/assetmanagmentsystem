@@ -1,0 +1,230 @@
+#emp-btn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+   
+
+}
+
+#emp-head{
+
+    text-align: center;
+    
+}
+.emp-btn1{ 
+    
+  margin-left: 10%;
+  margin-right: 10%;
+  margin: 10px;
+  
+  text-align: center;
+ 
+  transition: 0.5s;
+  background-size: auto;
+  color: white;
+  border-radius: 3px;
+  display: block;
+  border: 0px;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.emp-btn1:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.emp-btn1:active {
+  transform: scale(0.95);
+}
+#emp-con{
+    height:150px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#add-emp{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+
+}
+#add-emp-form{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #def5f7;
+}
+.emp-form-table{
+    font-size:medium;
+    width: 80%;
+    position: sticky;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  text-align: start;
+   
+  
+  border-radius: 32px;
+  background: #def5f7;
+  
+}
+.emp-form-table tr { line-height: 30px; }
+.emp-form-table-thead{
+   
+
+    text-align: center;
+}
+.tr{
+    padding-left: 10px;
+}
+.emp-form-table thead {
+    align-items: center;
+    justify-items: center;
+    background-color: pink;
+}
+
+
+.col-11{
+    margin-top: 15px;
+}
+.thead{
+    background-color: rgb(219, 250, 252);
+    font-weight: bold;
+}
+.btn{  
+  margin-top: 10px;  
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.table{
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.btn{
+  margin-top: 10px;  
+  margin-left: 10%;
+  margin-right: 10%;
+  margin: 10px;
+  
+  text-align: center;
+ 
+  transition: 0.5s;
+  background-size: auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+.reject-btn{
+
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.reject-btn:hover,
+.reject-btn:focus {
+  background-color: #F082AC;
+}
+
+.accept-btn{
+
+  background-color: #75de85;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #f5f5f5;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.accept-btn:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: .15s, .15s;
+}
+
+.accept-btn:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+.accept-btn:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+.accept-btn:disabled:active {
+  pointer-events: none;
+}
+
+.accept-btn:disabled:hover {
+  box-shadow: none;
+}
