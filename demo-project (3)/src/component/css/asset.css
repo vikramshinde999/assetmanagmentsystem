@@ -1,0 +1,90 @@
+#asset-head{
+    position: sticky;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    text-align:center ;
+    flex-wrap: wrap;
+}
+.col-6{
+    border: solid black;
+}
+#add-form{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: content;
+   
+    height: 200px;
+    margin-top: 10% ;
+    border-radius: 14px;
+   
+ 
+}
+.row{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 2%;
+}
+.add-button{
+
+  align-items: center;
+  appearance: button;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.add-button:active {
+  background-color: #006AE8;
+}
+
+.add-button:hover {
+  background-color: #1C84FF;
+}
+#raiseorder{
+  flex-wrap: wrap;
+  flex-direction: column;
+ 
+  display: flex;
+  justify-items: space-around;
+  align-items: center;
+  width: 40%;
+ 
+}
+#rasieorder-main{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  justify-items: space-around;
+  height: 300px;
+}
+#order-btn{
+   margin-top: 20px;
+}

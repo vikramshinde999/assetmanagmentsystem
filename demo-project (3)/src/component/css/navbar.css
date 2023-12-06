@@ -1,0 +1,15 @@
+.logo{
+    size: 10px;
+}
+.primary-nav{
+    background-color: aquamarine;
+}
+.primary-nav.logo{
+    size: 10px;
+}
+#navbar{
+    border-radius: 0px;
+    background: linear-gradient(145deg, #d0dfe0, #f7ffff);
+    box-shadow:  5px 5px 5px #e5f6f7,
+                 -35px -35px 5px #e9fafb;
+}

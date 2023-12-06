@@ -1,0 +1,35 @@
+#login{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+
+}
+#login_form{
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+    background-color: rgb(239, 213, 142);
+    border-radius: 0% 100% 1% 99% / 88% 10% 90% 12% ;
+    height: 400px;
+   opacity: 0.8;
+}
+#heading{
+    background-color:null;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.jumbotron{
+    background:none;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
